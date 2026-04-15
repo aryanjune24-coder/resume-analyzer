@@ -70,7 +70,7 @@ if st.button("⚡ Analyze Resume"):
             data = {"job_desc": job_desc}
 
             response = requests.post(
-                "https://resume-backend.onrender.com/analyze",
+                "https://resume-analyzer-z8ls.onrender.com/analyze",
                 files=files,
                 data=data
             )
