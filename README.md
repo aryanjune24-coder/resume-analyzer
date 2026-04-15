@@ -1,4 +1,4 @@
-\# Smart Resume Analyzer
+<img width="1917" height="973" alt="image" src="https://github.com/user-attachments/assets/1f1ff857-e359-4cba-90f1-e66b12c25ebc" />\# Smart Resume Analyzer
 
 
 
@@ -147,7 +147,6 @@ Job Description:
 \---
 
 
-
 \## 📌 Future Improvements
 
 \- Semantic similarity using embeddings
@@ -155,4 +154,10 @@ Job Description:
 \- Resume suggestions
 
 \- ATS scoring system
+
+
+## 📸 LIVE Demo
+
+https://resume-analyzer-mslcu6cdnasmlr6tvacgxe.streamlit.app/#ai-resume-analyzer
+
 
