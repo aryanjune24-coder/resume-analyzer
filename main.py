@@ -129,6 +129,10 @@ def extract_name(text):
 
 
 # 🚀 API
+@app.get("/")
+def home():
+    return {"message": "Resume Analyzer API is live 🚀"}
+
 @app.post("/analyze")
 async def analyze(resume: UploadFile = File(...), job_desc: str = Form(...)):
     try:
@@ -165,3 +169,4 @@ async def analyze(resume: UploadFile = File(...), job_desc: str = Form(...)):
     except Exception as e:
         print("ERROR:", e)
         return {"error": str(e)}
+        
